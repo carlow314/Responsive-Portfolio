@@ -456,10 +456,53 @@ z-index: 2;
 font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
 .Container {
 width: 100%;
-padding: 20px;
+}
+#connect{
+width: 27.5%;
+margin: 0 auto;
+margin-top:40px;
+}
+
+.ConnectHeader{
+text-align: left;
+margin-left: 25px;
+}
+
+.connectborder{
+width: 92%;
+}
+
+#bio{
+width: 50%;
+margin-left: 80px;
+margin-right: 40px;
+}
+
+#profile{
+width:95%;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+h1{
+left: 9%;
+}
+
+header{width: 100%;
+margin: 0 auto;
+}
+
+ul{
+right:70px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.Container {
+width: 95%;
 }
 #connect{
 width: 100%;
@@ -478,13 +521,74 @@ width: 92%;
 
 #bio{
 width: 100%;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#profile{
+width: 50%;
 }
 
 h1{
-margin-left: : 0 auto;
+left: 2.5%;
 }
 
 header{width: 100%;
-margin: 0 auto;}
+margin: 0 auto;
+}
+
+ul{
+right:10px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+.Container {
+width: 95%;
+}
+
+#connect{
+width: 100%;
+margin: 0 auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.ConnectHeader{
+text-align: left;
+margin-left: 25px;
+}
+
+.connectborder{
+width: 92%;
+}
+
+#bio{
+width: 100%;
+margin: auto;
+margin-top: 40px;
+}
+
+#profile{width:95%;
+margin-top: 10px;
+margin-bottom: 15px;}
+
+h1{width: 100%;
+left:0;
+text-align: center;
+padding-left: 0px;
+padding-right: 0px;}
+
+nav{
+width:100%;
+padding-bottom: 60px;
+top: 44px;
+background-color: white;
+}
+
+ul{top:100px;
+left: 0px;}
 
 }
