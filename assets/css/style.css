@@ -229,7 +229,6 @@ margin-bottom: 40px;
 background-color: #ffffff;
 border-color: #dddddd;
 clear: both;
-overflow:hidden;
 position: relative;
 }
 
@@ -460,6 +459,73 @@ font-family: "Georgia", Times, "Times New Roman", serif;
 .Container {
 width: 100%;
 }
+
+#formsection{
+width: 50%;
+margin-left: 80px;
+margin-right: 40px;
+}
+
+#PortfolioBox{
+width: 50%;
+margin-left: 80px;
+margin-right: 40px;
+height: auto;
+}
+
+.Hangman{width: 90%;
+height:250px;
+left:23px;
+}
+
+.HangmanDescription{
+width: 90%;
+top: 300px;
+left:23px;
+}
+
+.RPG{top: 420px;
+width: 90%;
+height: 250px;
+left:23px;
+}
+
+.RPGDescription{
+width: 90%;
+top: 600px;
+left:23px;}
+
+.Trivia{top:900px;
+}
+
+.TriviaDescription {
+top: 1000px;
+}
+
+.Rutgers{top:900px;}
+
+.RutgersDescription{
+top: 1000px;
+}
+
+.Rock{
+top:2000px;
+}
+
+.nameinput{
+width: 90%;
+margin-left: 25px;}
+
+.emailinput{
+width: 90%;
+margin-left: 25px;
+}
+
+.Message{
+width: 90%;
+margin-left: 25px;
+}
+
 #connect{
 width: 27.5%;
 margin: 0 auto;
@@ -467,8 +533,7 @@ margin-top:40px;
 }
 
 .ConnectHeader{
-text-align: left;
-margin-left: 25px;
+text-align: center;
 }
 
 .connectborder{
@@ -530,6 +595,14 @@ margin-bottom: 40px;
 width: 50%;
 }
 
+#formsection{width: 100%;
+margin: 0 auto;
+margin-bottom: 40px;
+float: none;
+margin-top: 40px;}
+
+
+
 h1{
 left: 2.5%;
 }
@@ -552,8 +625,9 @@ width: 95%;
 #connect{
 width: 100%;
 margin: 0 auto;
-margin-bottom: 20px;
-margin-top: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
+
 }
 
 .ConnectHeader{
@@ -589,6 +663,17 @@ background-color: white;
 }
 
 ul{top:100px;
-left: 0px;}
+left: -35px;}
+
+header{
+position: static;
+}
+
+#formsection{
+width:100%;
+top: 40px;
+margin: 0;
+margin-bottom: 40px;
+}
 
 }
