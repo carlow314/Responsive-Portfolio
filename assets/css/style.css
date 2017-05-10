@@ -306,13 +306,13 @@ font-size: 15px;
 margin-top: 40px;
 margin-bottom: 40px;
 width: 645.2px;
-height:840px;
+height: 840px;
 float: left;
 border: solid;
 background-color: #ffffff;
 border-color: #dddddd;
 position: relative;
-
+overflow:inherit;
 }
 
 .Portfolio {
@@ -470,7 +470,7 @@ margin-right: 40px;
 width: 50%;
 margin-left: 80px;
 margin-right: 40px;
-height: auto;
+height:1620px;
 }
 
 .Hangman{width: 90%;
@@ -495,21 +495,41 @@ width: 90%;
 top: 600px;
 left:23px;}
 
-.Trivia{top:900px;
+.Trivia{top:720px;
+width: 90%;
+height: 250px;
+left:23px;
 }
 
 .TriviaDescription {
-top: 1000px;
+top: 900px;
+width: 90%;
+left:23px;
 }
 
-.Rutgers{top:900px;}
+.Rutgers{top:1020px;
+width: 90%;
+height: 250px;
+left:23px;
+}
 
 .RutgersDescription{
-top: 1000px;
+top: 1200px;
+width: 90%;
+left: 23px;
 }
 
 .Rock{
-top:2000px;
+top:1320px;
+height: 250px;
+width: 90%;
+left: 23px;
+}
+
+.RockDescription{
+top: 1500px;
+width: 90%;
+left: 23px;
 }
 
 .nameinput{
@@ -601,7 +621,73 @@ margin-bottom: 40px;
 float: none;
 margin-top: 40px;}
 
+#PortfolioBox{
+width: 100%;
+margin: 0 auto;
+float: none;
+margin-top: 40px;
+margin-bottom: 40px;
+height: 840px;
+}
 
+.Hangman{
+width: 45%;
+height: 200px;
+}
+
+.HangmanDescription{
+width: 45%;
+top: 250px;
+}
+
+.Trivia{
+width: 45%;
+height: 200px;
+top: 360px;
+}
+
+.TriviaDescription{
+width: 45%;
+top: 492px;
+}
+
+.Rutgers{
+width: 45%;
+top: 360px;
+left: 360px;
+height: 200px;
+}
+
+.RutgersDescription{
+width: 45%;
+top: 492px;
+left: 360px;
+
+}
+
+.Rock{
+width: 45%;
+height: 200px;
+top: 600px;
+}
+
+.RockDescription{
+width: 45%;
+top: 730px;
+}
+
+.RPG{
+width: 45%;
+top: 120px;
+left: 360px;
+height: 200px;
+}
+
+.RPGDescription{
+top: 250px;
+left: 360px;
+width: 45%;
+}
 
 h1{
 left: 2.5%;
@@ -625,7 +711,6 @@ width: 95%;
 #connect{
 width: 100%;
 margin: 0 auto;
-margin-top: 40px;
 margin-bottom: 40px;
 
 }
@@ -649,6 +734,15 @@ margin-top: 40px;
 margin-top: 10px;
 margin-bottom: 15px;}
 
+#PortfolioBox{
+width: 100%;
+margin: 0 auto;
+float: none;
+margin-top: 40px;
+margin-bottom: 40px;
+height: 2035px;
+}
+
 h1{width: 100%;
 left:0;
 text-align: center;
@@ -669,11 +763,71 @@ header{
 position: static;
 }
 
-#formsection{
-width:100%;
-top: 40px;
-margin: 0;
+#formsection{width: 100%;
+margin: 0 auto;
 margin-bottom: 40px;
+float: none;
+margin-top: 40px;}
+
+.Hangman{width: 90%;
+height:350px;
+left:25px;
 }
+
+.HangmanDescription{
+width: 90%;
+top: 400px;
+left:25px;
+}
+
+.RPG{top: 500px;
+width: 90%;
+height: 350px;
+left:25px;
+}
+
+.RPGDescription{
+width: 90%;
+top: 780px;
+left:25px;}
+
+.Trivia{top:880px;
+width: 90%;
+height: 350px;
+left:25px;
+}
+
+.TriviaDescription {
+top: 1160px;
+width: 90%;
+left:25px;
+}
+
+.Rutgers{top:1260px;
+width: 90%;
+height: 350px;
+left:25px;
+}
+
+.RutgersDescription{
+top: 1540px;
+width: 90%;
+left: 25px;
+}
+
+.Rock{
+top:1640px;
+height: 350px;
+width: 90%;
+left: 25px;
+}
+
+.RockDescription{
+top: 1920px;
+width: 90%;
+left: 25px;
+}
+
+
 
 }
