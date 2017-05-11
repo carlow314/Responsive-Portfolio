@@ -757,7 +757,8 @@ background-color: white;
 }
 
 ul{top:100px;
-left: -35px;}
+padding-right: 150px;}
+
 
 header{
 position: static;
